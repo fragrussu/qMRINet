@@ -3,7 +3,7 @@
 
 At present qMRINet enables fitting of the following signal models:
 * [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate;
-* [T1-weighted multi-tensor models](http://doi.org/10.1016/j.neuroimage.2016.07.037) on MRI signal [powder averaging](http://doi.org/10.1002/mrm.25734) (spherical mean) for joint diffusion-T1 relaxation imaging of the brain. 
+* [T1-weighted diffusion tensor models](http://doi.org/10.1016/j.neuroimage.2016.07.037) on MRI signal [powder averaging](http://doi.org/10.1002/mrm.25734) (spherical mean) for joint diffusion-T1 relaxation imaging of the brain. 
 
 The code will be made avaiable in the coming days... Apologies for the delay!
 
