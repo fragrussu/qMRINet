@@ -50,8 +50,13 @@ All tools listed above also have a detailed *help manual*, which you can print b
 
 A signal model is identified by a unique string. At present, the following signal models are available:
 
-* [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate. It is identified by string `'pr_hybriddwi'` and can be used to model prostate qMRI data acquired with multi echo time diffusion-weighted sequences. **Sequence parameters are specified using text files** containing a matrix where the 1st row stores *b*-values in s/mm<sup>2</sup>, while 2nd row echo times in ms (different entries should be separated by spaces).
-* [T1-weighted diffusion tensor](http://doi.org/10.1016/j.neuroimage.2016.07.037) modelling of [spherical mean](http://doi.org/10.1002/mrm.25734) MRI signals for joint diffusion-T1 relaxation imaging of the brain. It is identified by string `'br_sirsmdt'` and can be used to model brain qMRI data acquired with diffusion-weighted inversion recovery or diffusion-weighted saturation inversion recovery sequences. **Sequence parameters are specified using text files** containing a matrix where the 1st row stores preparation times (saturation-inversion delay) in ms, the 2nd row inversion times (inversion-excitation delay) in ms, the 3rd row *b*-values in s/mm<sup>2</sup>. For a pure inversion recovery (i.e. no saturation pulse), use a very large number for the saturation-inversion delay (at least 5 times the maximum expected T1). Different entries should be separated by spaces.
+* [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate.
+  ** It is identified by string `'pr_hybriddwi'` and can be used to model prostate qMRI data acquired with multi echo time diffusion-weighted sequences.
+  ** **Sequence parameters are specified using text files** containing a matrix where the 1st row stores *b*-values in s/mm<sup>2</sup>, while 2nd row echo times in ms (different entries should be separated by spaces).
+  
+* [T1-weighted diffusion tensor](http://doi.org/10.1016/j.neuroimage.2016.07.037) modelling of [spherical mean](http://doi.org/10.1002/mrm.25734) MRI signals for joint diffusion-T1 relaxation imaging of the brain. 
+  ** It is identified by string `'br_sirsmdt'` and can be used to model brain qMRI data acquired with diffusion-weighted inversion recovery or diffusion-weighted saturation inversion recovery sequences. 
+  ** **Sequence parameters are specified using text files** containing a matrix where the 1st row stores preparation times (saturation-inversion delay) in ms, the 2nd row inversion times (inversion-excitation delay) in ms, the 3rd row *b*-values in s/mm<sup>2</sup>. For a pure inversion recovery (i.e. no saturation pulse), use a very large number for the saturation-inversion delay (at least 5 times the maximum expected T1). Different entries should be separated by spaces.
 
 
 
