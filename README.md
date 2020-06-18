@@ -1,4 +1,4 @@
-# qMRINet: overview
+# qMRINet
 The ***quantitative MRI network*** (qMRINet) enables voxel-by-voxel fitting of quantitative MRI models with fully-connected deep neural networks that can be trained on synthetic or actual MRI measurements.
 
 At present qMRINet enables fitting of the following multi-contrast signal models:
