@@ -1,5 +1,5 @@
 # qMRINet: user guide
-This page contains useful information that you will likely find useful to get started with qMRINet and learn how to fit signal models or resample qMRI protocols. 
+This page contains useful information that you will likely find useful to get started with qMRINet analyses. 
 
 
 ## qMRINet classes
