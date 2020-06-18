@@ -1,11 +1,10 @@
 # qMRINet: overview
 The ***quantitative MRI network*** (qMRINet) enables voxel-by-voxel fitting of quantitative MRI models with fully-connected deep neural networks that can be trained on synthetic or actual MRI measurements.
 
-At present qMRINet enables fitting of two multi-contrast signal models:
+At present qMRINet enables fitting of the following multi-contrast signal models:
 * [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate;
 * [T1-weighted diffusion tensors](http://doi.org/10.1016/j.neuroimage.2016.07.037) on [spherical mean](http://doi.org/10.1002/mrm.25734) MRI signals for joint diffusion-T1 relaxation imaging of the brain. 
 
-The code will be made avaiable in the coming days... Apologies for the delay!
 
 ## Dependencies
 To use qMRINet you need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution). Additionally, you need the following third party modules/packages:
@@ -41,6 +40,10 @@ python ./qMRINet/tools/syndata_deepqmri.py --help
 
 ## qMRINet: classes and tutorials
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [`deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file. Additional details can be found [here](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md). 
+
+* `qmrisig` allows you to train a qMRINet by minimising a loss function measuring the *mean squared error* (MSE) between measured MRI signals and qMRINet signal predictions;
+* `qmripar` allows you to train a qMRINet by minimising a loss function measuring the *mean squared error* (MSE) between  ground truth tissue parameters and MRI signals and qMRINet tissue parameter predictions;
+* `qmriinterp` allows you to learn a resampling between different qMRI protocols (it essentially the same as the *predictor* sub-network of a [SARDU-Net](https://github.com/fragrussu/sardunet)).
 
 ## Citation
 If you use qMRINet, please remember to cite our work:
