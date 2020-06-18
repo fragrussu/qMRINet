@@ -39,6 +39,9 @@ while a number of tutorials are available here:
 python ./qMRINet/tools/syndata_deepqmri.py --help
 ```
 
+# qMRINet: classes and tutorials
+qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [`deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file. Additional details can be found [here](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md). 
+
 # Citation
 If you use qMRINet, please remember to cite our work:
 
