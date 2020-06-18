@@ -34,7 +34,7 @@ while a number of tutorials are available here:
 ```
 ./qMRINet/tutorials
 ```
-5. You should now be able to use the code. Try to print the manual of a script, for instance of `extractvoxels_sardunet.py`, to make sure this is really the case:
+5. You should now be able to use the code. Try to print the manual of a script, for instance of `syndata_deepqmri.py`, to make sure this is really the case:
 ```
 python ./qMRINet/tools/syndata_deepqmri.py --help
 ```
