@@ -1,5 +1,5 @@
 # qMRINet
-The ***quantitative MRI network*** (qMRINet) enables voxel-by-voxel fitting of quantitative MRI models with fully-connected deep neural networks that can be trained on synthetic or actual MRI measurements.
+The ***quantitative MRI network*** (qMRINet) toolbox enables voxel-by-voxel fitting of quantitative MRI (qMRI) models or resampling of qMRI protocols with fully-connected deep neural networks. These can be trained on synthetic or actual MRI measurements.
 
 At present qMRINet enables fitting of the following multi-contrast signal models:
 * [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate;
@@ -41,8 +41,8 @@ python ./qMRINet/tools/syndata_deepqmri.py --help
 ## qMRINet: classes and tutorials
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file. Specifically:
 
-* `qmrisig` allows you to train a qMRINet by minimising a loss function measuring the mean squared error (MSE, or L2 error norm) *between measured MRI signals and qMRINet signal predictions*;
-* `qmripar` allows you to train a qMRINet by minimising a loss function measuring the MSE *between ground truth tissue parameters and qMRINet tissue parameter predictions*;
+* `qmrisig` allows you to fit signal models with a qMRINet trained by minimising a loss function measuring the mean squared error (MSE, or L2 error norm) *between measured MRI signals and qMRINet signal predictions*;
+* `qmripar` allows you to fit signal models with a qMRINet trained by minimising a loss function measuring the MSE *between ground truth tissue parameters and qMRINet tissue parameter predictions*;
 * `qmriinterp` allows you to learn a resampling between different qMRI protocols (it essentially equivalent to the *predictor* sub-network of a [SARDU-Net](https://github.com/fragrussu/sardunet)).
 
 Additional information can be found in this [guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md), including: i) details of the signal models you can fit with qMRINet; ii) details on the methods of each class; iii) practical tutorials that show qMRINet tools at work.
