@@ -3,7 +3,7 @@ The ***quantitative MRI network*** (qMRINet) enables voxel-by-voxel fitting of q
 
 At present qMRINet enables fitting of the following multi-contrast signal models:
 * [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate;
-* [T1-weighted diffusio tensor](http://doi.org/10.1016/j.neuroimage.2016.07.037) on [spherical mean](http://doi.org/10.1002/mrm.25734) MRI signals for joint diffusion-T1 relaxation imaging of the brain. 
+* [T1-weighted diffusion tensor](http://doi.org/10.1016/j.neuroimage.2016.07.037) on [spherical mean](http://doi.org/10.1002/mrm.25734) MRI signals for joint diffusion-T1 relaxation imaging of the brain. 
 
 
 ## Dependencies
