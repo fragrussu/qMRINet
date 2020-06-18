@@ -44,6 +44,7 @@ qMRINet includes a number of [command-line tools](https://github.com/fragrussu/q
 * `sig2par_qmripar_deepqmri.py` enables the use of a trained `qmripar` network to estimate tissue parameters;
 * `sig2sig_qmriinterp_deepqmri.py` enables the use of a trained `qmriinterp` network to resample qMRI protocols;
 
+All tools listed above also have a detailed *help manual*, which you can print by simply typing in your terminal `python </PATH/TO/TOOL> --help` (e.g. `python trainsig_deepqmri.py --help`). 
 
 ## qMRINet signal models
 
