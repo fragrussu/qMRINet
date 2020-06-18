@@ -1,5 +1,5 @@
 # qMRINet: user guide
-This page contains useful information that you will likely find useful to get started with qMRINet analyses. 
+This page contains useful information to get the ball rolling with qMRINet analyses. 
 
 
 ## qMRINet classes
