@@ -1,5 +1,5 @@
 # qMRINet: overview
-"qMRINet" enables voxel-by-voxel fitting of quantitative MRI models with fully-connected deep neural networks that can be trained on synthetic or actual MRI measurements.
+The ***quantitative MRI network*** (qMRINet) enables voxel-by-voxel fitting of quantitative MRI models with fully-connected deep neural networks that can be trained on synthetic or actual MRI measurements.
 
 At present qMRINet enables fitting of two multi-contrast signal models:
 * [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate;
@@ -7,7 +7,7 @@ At present qMRINet enables fitting of two multi-contrast signal models:
 
 The code will be made avaiable in the coming days... Apologies for the delay!
 
-# Dependencies
+## Dependencies
 To use qMRINet you need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution). Additionally, you need the following third party modules/packages:
 * [NumPy](http://numpy.org)
 * [Nibabel](http://nipy.org/nibabel)
@@ -15,7 +15,7 @@ To use qMRINet you need a Python 3 distribution such as [Anaconda](http://www.an
 * [PyTorch](http://pytorch.org/)
 
 
-# Download 
+## Download 
 Getting qMRINet is extremely easy: cloning this repository is all you need to do. The tools would be ready for you to run.
 
 If you use Linux or MacOS:
@@ -39,18 +39,18 @@ while a number of tutorials are available here:
 python ./qMRINet/tools/syndata_deepqmri.py --help
 ```
 
-# qMRINet: classes and tutorials
+## qMRINet: classes and tutorials
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [`deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file. Additional details can be found [here](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md). 
 
-# Citation
+## Citation
 If you use qMRINet, please remember to cite our work:
 
 "*Select and retrieve via direct upsampling* network (SARDU-Net): a data-driven, model-free, deep learning approach for quantitative MRI protocol design". Grussu F, Blumberg SB, Battiston M, Kakkar LS, Lin H, Ianuș A, Schneider T, Singh S, Bourne R, Punwani S, Atkinson D, Gandini Wheeler-Kingshott CAM, Panagiotaki E, Mertzanidou T and Alexander DC. biorxiv 2020, DOI: [10.1101/2020.05.26.116491](https://doi.org/10.1101/2020.05.26.116491). 
 
-# License
+## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved.
 Link to license [here](http://github.com/fragrussu/qMRINet/blob/master/LICENSE).
 
-# Acknowledgements
+## Acknowledgements
 The development of qMRINet was funded by the Engineering and Physical Sciences Research Council (EPSRC EP/R006032/1). This project has also received funding under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541 and No. 666992. Funding has also been received from: EPSRC (M020533/1, G007748, I027084, N018702); Rosetrees Trust (UK, funding FG); Prostate Cancer UK Targeted Call 2014 (Translational Research St.2, project reference PG14-018-TR2); Spinal Research (UK), Wings for Life (Austria), Craig H. Neilsen Foundation (USA) for jointly funding the INSPIRED study; Wings for Life (#169111); UK Multiple Sclerosis Society (grants 892/08 and 77/2017); the Department of Health's National Institute for HealthResearch (NIHR) Biomedical Research Centres and UCLH NIHR Biomedical Research Centre; Champalimaud Centre for the Unknown, Lisbon (Portugal); European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101003390.
 
