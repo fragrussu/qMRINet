@@ -23,16 +23,9 @@ If you use Linux or MacOS:
 2. Navigate to your destination folder;
 3. Clone qMRINet:
 ```
-git clone https://github.com/fragrussu/qMRINet.git 
+$ git clone https://github.com/fragrussu/qMRINet.git 
 ```
-4. qMRINet is ready for you in `./qMRINet`. qMRINet tools are available here: 
-```
-./qMRINet/tools
-```
-while a number of tutorials are available here:
-```
-./qMRINet/tutorials
-```
+4. qMRINet is ready for you in `./qMRINet`. qMRINet tools are available here: `./qMRINet/tools`; a user guide and some tutorials are available here: `./qMRINet/tutorials`.
 5. You should now be able to use the code. Try to print the manual of a script, for instance of `syndata_deepqmri.py`, to make sure this is really the case:
 ```
 python ./qMRINet/tools/syndata_deepqmri.py --help
