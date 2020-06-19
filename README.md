@@ -39,7 +39,7 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
 * `qmripar` allows you to fit signal models with a qMRINet trained by minimising a loss function measuring the MSE *between ground truth tissue parameters and qMRINet tissue parameter predictions*;
 * `qmriinterp` allows you to learn a resampling between different qMRI protocols, voxel-by-voxel (it essentially equivalent to the *predictor* sub-network of a [SARDU-Net](https://github.com/fragrussu/sardunet)).
 
-Additional information can be found in this [guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md), including:
+Additional information can be found in this [user guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md), including:
 1. details on the methods of each class;
 2. details of the signal models you can fit with qMRINet; 
 3. practical tutorials that demonstrate how to use qMRINet tools.
