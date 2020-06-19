@@ -11,16 +11,17 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
   * `__init__()`: the constructor, to define the hidden layers and tissue parameter ranges;
   * `getparams()`: to map input qMRI measurements to tissue parameters (it relies on two support methods, `getneurons()` and `getnorm()`); 
   * `getsignals()`: to predict qMRI signals from tissue parameters;
-  * `forward()`: to pass data through the entire `qmrisig` network, essentially implementing `forward(s) = getsignals( getparams (s) )`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | s - forward(s) |<sup>2</sup>*.
+  * `forward()`: to pass data through the entire `qmrisig` network, essentially implementing `forward(s) = getsignals( getparams (s) )`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | s - forward(s) |<sup>2</sup>*, as shown in the figure below.
 * `qmripar` allows you to train a qMRINet to fit a signal model by minimising a loss function measuring the MSE *between ground truth tissue parameters and qMRINet tissue parameter predictions*. Methods in `qmripar` objects are:
   * `__init__()`: the constructor, to define the hidden layers and tissue parameter ranges;
   * `getparams()`: to map input qMRI measurements to tissue parameters; 
   * `getsignals()`: to predict qMRI signals from tissue parameters;
-  * `forward()`: to pass data through the entire `qmripar` network, essentially implementing `forward(s) = getparams(s)`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | p - forward(s) |<sup>2</sup>*, where *p* are ground truth tissue parameters.
+  * `forward()`: to pass data through the entire `qmripar` network, essentially implementing `forward(s) = getparams(s)`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | p - forward(s) |<sup>2</sup>*, where *p* are ground truth tissue parameters, as illustrated in the figure below.
 * `qmriinterp` allows you to train a qMRINet to learn a resampling between two different qMRI protocols. A `qmriinterp` network is essentially equivalent to the *predictor* sub-network of a [SARDU-Net](https://github.com/fragrussu/sardunet). Methods in `qmriinterp` objects are:
   * `__init__()`: the constructor, to define the hidden layers;
   * `resample()`: to map an input qMRI protocol to an output qMRI protocol;
-  * `forward()`: to pass data through the entire `qmriinterp` network, essentially implementing `forward(sa) = resample(sa)`, where `sa` are qMRI measurements obtained from protocol a). The network is trained by minimising the loss function *L = | sb - forward(sa) |<sup>2</sup>*, where *sb* are qMRI measurements from the same voxels but performed with protocol b). Essentially, the trained `qmriinterp` network will learn to map measurements from protocol a) to measurements from protocol b). 
+  * `forward()`: to pass data through the entire `qmriinterp` network, essentially implementing `forward(sA) = resample(sA)`, where `sA` are qMRI measurements obtained from protocol A. The network is trained by minimising the loss function *L = | sB - forward(sA) |<sup>2</sup>*, where *sB* are qMRI measurements from the same voxels but performed with protocol B. Essentially, the trained `qmriinterp` network will learn to map measurements from protocol A to measurements from protocol B, as illustrated in the figure below.
+<img src="https://github.com/fragrussu/sardunet/blob/master/qmriinterp.png" width="1024">
 
 
 Each class has a detailed *help manual*. From a [Jupyter notebook](https://jupyter.org) or in your python interpreter prompt, you can check the manual by typing something like:
