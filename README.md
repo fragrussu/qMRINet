@@ -1,9 +1,5 @@
 # qMRINet
-The ***quantitative MRI network*** (qMRINet) toolbox enables voxel-by-voxel fitting of quantitative MRI (qMRI) models or resampling of qMRI protocols with fully-connected deep neural networks. These can be trained on synthetic or actual MRI measurements.
-
-At present qMRINet enables fitting of the following multi-contrast signal models:
-* [Hybrid multi-dimensional MRI](http://doi.org/10.1148/radiol.2018171130) for joint diffusion-T2 relaxation imaging of the prostate;
-* [T1-weighted diffusion tensor](http://doi.org/10.1016/j.neuroimage.2016.07.037) modelling of [directionally-averaged mean](http://doi.org/10.1002/mrm.25734) signals for joint diffusion-T1 imaging of the brain. 
+The ***quantitative MRI network*** (qMRINet) toolbox enables voxel-by-voxel fitting of quantitative MRI (qMRI) models and resampling of qMRI protocols with fully-connected deep neural networks.
 
 **The code is being tidied up and will be made available soon. Sorry for the delay!**
 
@@ -41,7 +37,7 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
 
 Additional information can be found in this [user guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md), including:
 1. details on the methods of each class;
-2. details of the signal models you can fit with qMRINet; 
+2. details on the signal models currently implemented in qMRINet; 
 3. practical tutorials that demonstrate how to use qMRINet tools.
 
 ## Citation
