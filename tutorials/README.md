@@ -21,7 +21,7 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
   * `__init__()`: the constructor, to define the hidden layers;
   * `resample()`: to map an input qMRI protocol to an output qMRI protocol;
   * `forward()`: to pass data through the entire `qmriinterp` network, essentially implementing `forward(sA) = resample(sA)`, where `sA` are qMRI measurements obtained from protocol A. The network is trained by minimising the loss function *L = | sB - forward(sA) |<sup>2</sup>*, where *sB* are qMRI measurements from the same voxels but performed with protocol B. Essentially, the trained `qmriinterp` network will learn to map measurements from protocol A to measurements from protocol B, as illustrated in the figure below.
-<img src="https://github.com/fragrussu/sardunet/blob/master/qmriinterp.png" width="1024">
+<img src="https://github.com/fragrussu/sardunet/blob/master/tutorials/qmriinterp.png" width="1024">
 
 
 Each class has a detailed *help manual*. From a [Jupyter notebook](https://jupyter.org) or in your python interpreter prompt, you can check the manual by typing something like:
