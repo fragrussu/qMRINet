@@ -67,6 +67,6 @@ A signal model is identified by a unique string. At present, the following signa
 
 
 ## qMRINet tutorials
-A number of tutorials will be available here soon. Sorry for the wait!
+A number of tutorials will be available here soon.
 
 
