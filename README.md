@@ -39,12 +39,9 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
 * `qmriinterp` allows you to learn a resampling between different qMRI protocols, voxel-by-voxel (it essentially equivalent to the *predictor* sub-network of a [SARDU-Net](https://github.com/fragrussu/sardunet)).
 
 Additional information can be found in this [guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md), including:
-
-i. details on the methods of each class;
-
-ii. details of the signal models you can fit with qMRINet; 
-
-iii. practical tutorials that demonstrate how to use qMRINet tools.
+1. details on the methods of each class;
+2. details of the signal models you can fit with qMRINet; 
+3. practical tutorials that demonstrate how to use qMRINet tools.
 
 ## Citation
 If you use qMRINet, please remember to cite our work:
