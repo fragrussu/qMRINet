@@ -26,7 +26,7 @@ If you use Linux or MacOS:
 $ git clone https://github.com/fragrussu/qMRINet.git 
 ```
 4. qMRINet is ready for you in `./qMRINet`. qMRINet tools are available here: [`./qMRINet/tools`](https://github.com/fragrussu/qMRINet/tree/master/tools); a user guide and some tutorials are available here: [`./qMRINet/tutorials`](https://github.com/fragrussu/qMRINet/tree/master/tutorials).
-5. You should now be able to use the code. Try to print the manual of a script, for instance of `syndata_deepqmri.py`, to make sure this is really the case:
+5. You should now be able to use the code. Try to print the manual of a tool in your terminal, for instance of `syndata_deepqmri.py`, to make sure this is really the case:
 ```
 $ python ./qMRINet/tools/syndata_deepqmri.py --help
 ```
