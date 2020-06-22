@@ -29,15 +29,9 @@ $ python ./qMRINet/tools/syndata_deepqmri.py --help
 ```
 
 ## User guide
-qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file. Specifically:
-
-* `qmrisig` allows you to fit signal models with a qMRINet trained by minimising a loss function measuring the mean squared error (MSE, or L2 error norm) *between measured MRI signals and qMRINet signal predictions*;
-* `qmripar` allows you to fit signal models with a qMRINet trained by minimising a loss function measuring the MSE *between ground truth tissue parameters and qMRINet tissue parameter predictions*;
-* `qmriinterp` allows you to learn a resampling between different qMRI protocols, voxel-by-voxel (it essentially equivalent to the *predictor* sub-network of a [SARDU-Net](https://github.com/fragrussu/sardunet)).
-
-Additional information can be found in this [user guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md), including:
-1. details on the methods of each class;
-2. details on the signal models currently implemented in qMRINet; 
+qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file and described in detail in this [user guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md). The guide contains:
+1. description of class and of its methods, including illustrations;
+2. a list of signal models currently implemented in qMRINet; 
 3. practical tutorials that demonstrate how to use qMRINet tools.
 
 ## Citation
