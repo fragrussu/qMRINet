@@ -30,7 +30,7 @@ $ python ./qMRINet/tools/syndata_deepqmri.py --help
 
 ## User guide
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file and described in detail in this [user guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md). The guide contains:
-1. description of class and of its methods, including illustrations;
+1. information on qMRINet classes and on their methods, including illustrations;
 2. a list of signal models currently implemented in qMRINet; 
 3. practical tutorials that demonstrate how to use qMRINet tools.
 
