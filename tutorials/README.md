@@ -18,7 +18,7 @@ Each class has a detailed *help manual*. From a [Jupyter notebook](https://jupyt
 qMRINet includes a number of [command-line tools](https://github.com/fragrussu/qMRINet/tree/master/tools) that provide handy interfaces to train and deploy objects from the 3 `qmrisig`, `qmripar` and `qmriinterp` classes.
 
 * `syndata_deepqmri.py` enables synthesis of qMRI measurements from uniformly distributed tisssue parameters, which could be useful for training and testing `qmrisig`, `qmripar` and `qmriinterp` networks;
-* `par2sig_deepqmri.py` enables synthesis of qMRI measurements from specif, pre-computed tisssue parameters.
+* `par2sig_deepqmri.py` enables synthesis of qMRI measurements from pre-computed tisssue parameters.
 * `extractvoxels_deepqmri.py` enables extraction of voxel measurements from qMRI scans in [NIFTI1 format](https://nifti.nimh.nih.gov/nifti-1), which could be used to train a `qmrinetsig` network;
 * `sigsubset_deepqmri.py` enables extraction of subsets of qMRI measurements, which could be used to train a `qmriinterp` network;
 * `seqsubset_deepqmri.py` enables extraction of subsets of qMRI sequence parmeters from text files;
