@@ -28,7 +28,7 @@ $ git clone https://github.com/fragrussu/qMRINet.git
 $ python ./qMRINet/tools/syndata_deepqmri.py --help
 ```
 
-## qMRINet: classes and tutorials
+## qMRINet: user guide and tutorials
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file. Specifically:
 
 * `qmrisig` allows you to fit signal models with a qMRINet trained by minimising a loss function measuring the mean squared error (MSE, or L2 error norm) *between measured MRI signals and qMRINet signal predictions*;
