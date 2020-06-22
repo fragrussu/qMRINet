@@ -6,7 +6,7 @@ This page contains useful information on qMRINet.
 
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`, which are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/tree/master/tools/deepqmri.py) file. 
 
-** << A detailed decsription of each class will be added soon! Apologies for the delay! >> **
+**<< A detailed decsription of each class will be added soon! Apologies for the delay! >>**
 
 Each class has a detailed *help manual*. From a [Jupyter notebook](https://jupyter.org) or in your python interpreter prompt, you can check the manual by typing something like:
 ```
