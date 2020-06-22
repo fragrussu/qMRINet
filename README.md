@@ -1,7 +1,7 @@
 # qMRINet
 The ***quantitative MRI network*** (qMRINet) toolbox enables voxel-by-voxel fitting of quantitative MRI (qMRI) models and resampling of qMRI protocols with fully-connected deep neural networks.
 
-**The code is being tidied up and will be made available soon. Sorry for the delay!**
+**>> The code is being tidied up and will be made available soon. Sorry for the delay! <<**
 
 ## Dependencies
 To use qMRINet you need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution). Additionally, you need the following third party modules/packages:
