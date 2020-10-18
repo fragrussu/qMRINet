@@ -11,6 +11,7 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
   * `__init__()`: the constructor, to define the hidden layers and tissue parameter ranges;
   * `getparams()`: to map input qMRI measurements to tissue parameters (it relies on two support methods, `getneurons()` and `getnorm()`); 
   * `getsignals()`: to predict qMRI signals from tissue parameters;
+  * `changelim()`: to change the range of tissue parameters from the default settings;
   * `forward()`: to pass data through the entire `qmrisig` network, essentially implementing `forward(s) = getsignals( getparams (s) )`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | s - forward(s) |<sup>2</sup>*, as shown in the figure below.
 <img src="https://github.com/fragrussu/qMRINet/blob/master/tutorials/qmrisig.png" width="668"> 
 
@@ -18,6 +19,7 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
   * `__init__()`: the constructor, to define the hidden layers and tissue parameter ranges;
   * `getparams()`: to map input qMRI measurements to tissue parameters; 
   * `getsignals()`: to predict qMRI signals from tissue parameters;
+  * `changelim()`: to change the range of tissue parameters from the default settings;
   * `forward()`: to pass data through the entire `qmripar` network, essentially implementing `forward(s) = getparams(s)`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | p - forward(s) |<sup>2</sup>*, where *p* are ground truth tissue parameters, as illustrated in the figure below.
 <img src="https://github.com/fragrussu/qMRINet/blob/master/tutorials/qmripar.png" width="500">
 
