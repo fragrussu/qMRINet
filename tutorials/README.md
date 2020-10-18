@@ -10,8 +10,8 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
 * `qmrisig` allows you to train a qMRINet to fit a signal model by minimising a loss function measuring the mean squared error (MSE, or L2 error norm) *between measured MRI signals and qMRINet signal predictions*. Methods in `qmrisig` objects are:
   * `__init__()`: the constructor, to define the hidden layers and tissue parameter ranges;
   * `getparams()`: to map input qMRI measurements to tissue parameters. It relies on two additional methods that implement intermediate normalisation steps:
-  ** `getneurons()` and 
-  ** `getnorm()`; 
+    * `getneurons()` and 
+    * `getnorm()`; 
   * `getsignals()`: to predict qMRI signals from tissue parameters;
   * `changelim()`: to change the range of tissue parameters from the default settings;
   * `forward()`: to pass data through the entire `qmrisig` network, essentially implementing `forward(s) = getsignals( getparams (s) )`, where `s` are input qMRI measurements. The network is trained by minimising the loss function *L = | s - forward(s) |<sup>2</sup>*, as shown in the figure below.
