@@ -41,6 +41,7 @@ If you use qMRINet, please remember to cite our work:
 
 ## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved.
+
 Link to license [here](http://github.com/fragrussu/qMRINet/blob/master/LICENSE).
 
 ## Acknowledgements
