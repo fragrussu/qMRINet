@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
 	
 	### Print help and parse arguments
-	parser = argparse.ArgumentParser(description='This program extract a subset from a text file storing the sequence parameter values of a multi-contrast quantitative MRI experiment. Author: Francesco Grussu, University College London (<f.grussu@ucl.ac.uk><francegrussu@gmail.com>). Code released under BSD Two-Clause license. Copyright (c) 2020 University College London. All rights reserved.')	
+	parser = argparse.ArgumentParser(description='This program extracts a subset from a text file storing the sequence parameter values of a multi-contrast quantitative MRI experiment. Author: Francesco Grussu, University College London (<f.grussu@ucl.ac.uk><francegrussu@gmail.com>). Code released under BSD Two-Clause license. Copyright (c) 2020 University College London. All rights reserved.')	
 	parser.add_argument('filein', help='path to a text file storing the sequence parameters (entries separated by spaces). Rows: sequence parameters (e.g. TE, TI, b-value, etc); columns: measurements')
 	parser.add_argument('fileout', help='path of the output file that will store the sequence parameters corresponding to the measurement subset')
 	parser.add_argument('subset', help='path to a text file containing the indices of the measurements to keep in the output (NOTE: indices MUST start from 0 and range from 0 to no. of measurements - 1)')
