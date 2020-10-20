@@ -42,7 +42,7 @@ to print the manual (in this example of the `qmrisig` class).
 ## qMRINet command-line tools
 qMRINet includes a number of [command-line tools](https://github.com/fragrussu/qMRINet/tree/master/tools) that provide handy interfaces to train and deploy objects from the 3 `qmrisig`, `qmripar` and `qmriinterp` classes.
 
-* [`syndata_deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/syndata_deepqmri.py) enables synthesis of qMRI measurements from uniformly distributed tisssue parameters, which could be useful for training and testing `qmrisig`, `qmripar` and `qmriinterp` networks;
+* [`syndata_deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/syndata_deepqmri.py) enables synthesis of qMRI measurements from uniformly distributed tissue parameters, which could be useful for training and testing `qmrisig`, `qmripar` and `qmriinterp` networks;
 * [`par2sig_deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/par2sig_deepqmri.py) enables synthesis of qMRI measurements from pre-computed tisssue parameters;
 * [`extractvoxels_deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/extractvoxels_deepqmri.py) enables extraction of voxel measurements from qMRI scans in [NIFTI1 format](https://nifti.nimh.nih.gov/nifti-1), which could be used to train a `qmrinetsig` network;
 * [`sigsubset_deepqmri.py`](https://github.com/fragrussu/qMRINet/blob/master/tools/sigsubset_deepqmri.py) enables extraction of subsets of qMRI measurements, which could be used to train a `qmriinterp` network;
