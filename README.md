@@ -37,6 +37,8 @@ If you use qMRINet, please remember to cite our work:
 
 "Deep learning model fitting for diffusion-relaxometry: a comparative study". Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. Proceedings of the 2020 International MICCAI Workshop on Computational Diffusion MRI (accepted; in production).
 
+**Discolsure**: T.S. worked for Philips (UK) and now works for DeepSpin (Germany).
+
 ## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved.
 
