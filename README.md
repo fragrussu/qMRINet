@@ -40,7 +40,7 @@ If you use qMRINet, please remember to cite our work:
 Earlier preliminary results are available in this preprint: "Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. biorxiv 2020, DOI: [10.1101/2020.10.20.347625](https://doi.org/10.1101/2020.10.20.347625).
 
 ## License
-qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/qMRINet/blob/master/LICENSE).
+qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved. License [here](http://github.com/fragrussu/qMRINet/blob/master/LICENSE).
 
 ## Acknowledgements
 The development of qMRINet was funded by the Engineering and Physical Sciences Research Council (EPSRC EP/R006032/1, M020533/1, EP/N018702/1 G007748, I027084) and by the UK Research and Innovation (UKRI) programme (MR/T020296/1, funding M.P.). This project has received funding under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541, and from: Rosetrees Trust (UK, funding F.G.); Spinal Research (UK), Wings for Life (Austria), Craig H. Neilsen Foundation (USA) for INSPIRED; Wings for Life (169111); UK Multiple Sclerosis Society (grants 892/08 and 77/2017); the Department of Health’s National Institute for Health Research (NIHR) Biomedical Research Centres and UCLH NIHR Biomedical Research Centre.
