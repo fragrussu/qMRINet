@@ -35,9 +35,11 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
 ## Citation
 If you use qMRINet, please remember to cite our work:
 
-"Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. Proceedings of the 2020 International MICCAI Workshop on Computational Diffusion MRI (accepted; in production). <ins>Disclosure</ins>: TS worked for Philips (UK) and now works for DeepSpin (Germany).
+"Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. Proceedings of the 2020 International MICCAI Workshop on Computational Diffusion MRI (accepted; in production). 
 
 Earlier preliminary results are available in this preprint: "Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. biorxiv 2020, DOI: [10.1101/2020.10.20.347625](https://doi.org/10.1101/2020.10.20.347625).
+
+**Disclosure:** TS worked for Philips (UK) and now works for DeepSpin (Germany).
 
 ## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved ([license](http://github.com/fragrussu/qMRINet/blob/master/LICENSE)).
