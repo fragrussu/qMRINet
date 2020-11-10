@@ -252,7 +252,7 @@ class qmrisig(nn.Module):
 			db_max = 3.20
 			kb_max = 3.0
 			t2b_max = 800.0
-			s0_max = 5.0
+			s0_max = 10.0
 			
 			self.param_min = np.array([v_min,da_min,t2a_min,db_min,kb_min,t2b_min,s0_min]) # Parameter order: v, da, t2a, db, kb, t2b, s0
 			self.param_max = np.array([v_max,da_max,t2a_max,db_max,kb_max,t2b_max,s0_max]) # Parameter order: v, da, t2a, db, kb, t2b, s0
@@ -894,7 +894,7 @@ class qmripar(nn.Module):
 			db_max = 3.20
 			kb_max = 3.0
 			t2b_max = 800.0
-			s0_max = 5.0
+			s0_max = 10.0
 			
 			self.param_min = np.array([v_min,da_min,t2a_min,db_min,kb_min,t2b_min,s0_min]) # Parameter order: v, da, t2a, db, kb, t2b, s0
 			self.param_max = np.array([v_max,da_max,t2a_max,db_max,kb_max,t2b_max,s0_max]) # Parameter order: v, da, t2a, db, kb, t2b, s0
