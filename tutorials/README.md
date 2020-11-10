@@ -60,6 +60,7 @@ All tools listed above also have a detailed *help manual*, which you can print b
 
 A signal model is identified by a unique string. At present, the following signal models are available:
 
+### Hybrid multi-dimensional MRI
 * [_Hybrid multi-dimensional MRI_](http://doi.org/10.1148/radiol.2018171130) for prostate diffusion-T2 relaxation imaging.
   * It is identified by string `'pr_hybriddwi'` and can be used to model prostate qMRI data acquired with multi echo time diffusion-weighted sequences.
   * **Sequence parameters are specified using text files** containing a matrix where the 1st row stores *b*-values in s/mm<sup>2</sup>, while 2nd row echo times in ms (use spaces to separate different entries). Below you find the signal model, sequence parameters and tissue parameters in the same order as outputted by fitting routines.
