@@ -72,7 +72,7 @@ A signal model is identified by a unique string. At present, the following signa
 <img src="https://github.com/fragrussu/qMRINet/blob/master/tutorials/MD2.png" width="900">
 
 
-* _Two-compartment diffusion-relaxation_ for a generic two-pool diffusion-T2 relaxation imaging model without anisotropy.
+* _Two-compartment diffusion-relaxation_ for a generic two-pool diffusion-T2 relaxation imaging model without anisotropy, with optional intra-compartmental non-zero diffusion kurtosis excess in one of the two compartments.
   * It is identified by string `'twocompdwite'` and can be used to model prostate qMRI data acquired with multi echo time diffusion-weighted sequences.
   * **Sequence parameters are specified using text files** containing a matrix where the 1st row stores *b*-values in s/mm<sup>2</sup>, while 2nd row echo times in ms (use spaces to separate different entries). Below you find the signal model, sequence parameters and tissue parameters in the same order as outputted by fitting routines.
 <img src="https://github.com/fragrussu/qMRINet/blob/master/tutorials/MD3.png" width="612">
