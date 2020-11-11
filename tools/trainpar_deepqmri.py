@@ -149,9 +149,9 @@ if __name__ == "__main__":
 
 		if (mrimodel=='pr_hybriddwi'): 
 			npars = 9
-		elif (mrimodel!='br_sirsmdt'):
+		elif (mrimodel=='br_sirsmdt'):
 			npars = 4
-		elif (mrimodel!='twocompdwite'):
+		elif (mrimodel=='twocompdwite'):
 			npars = 7
 		else:
 			raise RuntimeError('the chosen MRI model is not implemented. Sorry!')
