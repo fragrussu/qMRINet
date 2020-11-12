@@ -46,7 +46,7 @@ if __name__ == "__main__":
 	parser.add_argument('--pdrop', metavar='<value>', default='0.0', help='dropout probability in each layer of the neural network. Default: 0.0')
 	parser.add_argument('--noepoch', metavar='<value>', default='500', help='number of epochs used for training. Default: 500')
 	parser.add_argument('--lrate', metavar='<value>', default='0.001', help='learning rate. Default: 0.001')
-	parser.add_argument('--mbatch', metavar='<value>', help='number of voxels in each training mini-batch. Default: 1/10 of the total number of training voxels (minimum: 2 voxels)')
+	parser.add_argument('--mbatch', metavar='<value>', help='number of voxels in each training mini-batch. Default: 1/80 of the total number of training voxels (minimum: 2 voxels)')
 	parser.add_argument('--seed', metavar='<value>', default='19102018', help='integer used as a seed for Numpy and PyTorch random number generators. Default: 19102018')
 	parser.add_argument('--nwork', metavar='<value>', default='0', help='number of workers for data loader. Default: 0')
 	parser.add_argument('--dtest', metavar='<file>', help='path to an option input pickle binary file storing the test data as a numpy matrix (rows: voxels; columns: measurements)')
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
 	### Get number of mini-batches
 	if args.mbatch is None:
-		mbatch = int(float(datatrain.shape[0]) / 10.0) # Default: 1/10 of the total number of training voxels
+		mbatch = int(float(datatrain.shape[0]) / 80.0) # Default: 1/80 of the total number of training voxels
 	else:
 		mbatch = int(args.mbatch)
 		if (mbatch>datatrain.shape[0]):
