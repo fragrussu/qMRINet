@@ -72,7 +72,7 @@ if __name__ == "__main__":
 		sin_obj = nib.load(args.sig_in)
 		sin_header = sin_obj.header
 		sin_affine = sin_header.get_best_affine()
-		sin_data = sin_obj.get_data()
+		sin_data = sin_obj.get_fdata()
 		sin_dims = sin_data.shape
 		imgsize = sin_data.shape
 		imgsize = np.array(imgsize)
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 			mask_header = mask_obj.header
 			mask_affine = mask_header.get_best_affine()			
 			# Make sure the mask is a 3D file
-			mask_data = mask_obj.get_data()
+			mask_data = mask_obj.get_fdata()
 			masksize = mask_data.shape
 			masksize = np.array(masksize)
 			
