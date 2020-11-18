@@ -67,7 +67,7 @@ if __name__ == "__main__":
 		par_obj = nib.load(args.par_in)
 		par_header = par_obj.header
 		par_affine = par_header.get_best_affine()
-		par_data = par_obj.get_data()
+		par_data = par_obj.get_fdata()
 		par_dims = par_data.shape
 		imgsize = par_data.shape
 		imgsize = np.array(imgsize)
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 			mask_header = mask_obj.header
 			mask_affine = mask_header.get_best_affine()			
 			# Make sure the mask is a 3D file
-			mask_data = mask_obj.get_data()
+			mask_data = mask_obj.get_fdata()
 			masksize = mask_data.shape
 			masksize = np.array(masksize)
 			
