@@ -81,7 +81,7 @@ if __name__ == "__main__":
 		# Load NIFTI file and get information on image size, header etc
 		print('                                        scan {}/{}'.format(nn+1,nfiles))
 		myscan_obj = nib.load(mrilist[nn])
-		myscan_data = myscan_obj.get_data()
+		myscan_data = myscan_obj.get_fdata()
 		imgsize = np.array(myscan_data.shape)
 		if imgsize.size!=4:
 			raise RuntimeError('the scan {} is not a 4D NIFTI.'.format(mrilist[nn]))
@@ -103,7 +103,7 @@ if __name__ == "__main__":
 			
 			# Load mask
 			mask_obj = nib.load(maskname)
-			mask_data = mask_obj.get_data()
+			mask_data = mask_obj.get_fdata()
 			mask_dims = mask_obj.shape		
 			mask_header = mask_obj.header
 			mask_affine = mask_header.get_best_affine()
