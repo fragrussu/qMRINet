@@ -154,7 +154,7 @@ if __name__ == "__main__":
 
 	### Predict tissue parameters 
 	print('')
-	print('     ... predicting MRI signals with qMRI-net ...')
+	print('     ... estimating tissue parameters with qMRI-net ...')
 
 	# NIFTI
 	if(isnifti==True):
