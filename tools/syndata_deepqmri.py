@@ -43,7 +43,7 @@ if __name__ == "__main__":
 	parser.add_argument('--ntrain', metavar='<value>', default='8000', help='number of synthetic voxels for training (default: 8000; note that if multiple SNR levels are requested, the final number of training voxels may change slightly from what has been requested)')
 	parser.add_argument('--nval', metavar='<value>', default='2000', help='number of synthetic voxels for validation (default: 2000; note that if multiple SNR levels are requested, the final number of training voxels may change slightly from what has been requested)')	
 	parser.add_argument('--ntest', metavar='<value>', default='1000', help='number of synthetic voxels for testing (default: 1000; note that if multiple SNR levels are requested, the final number of training voxels may change slightly from what has been requested)')
-	parser.add_argument('--snr', metavar='<value>', default='30', help='value or values (separated by hyphens) of signal-to-noise ratio to be used to corrupt the data with synthetic noise (example: --snr 20 or --snr 20-15-10; default 30). SNR is evaluated with respect to non-weighted signals (e.g. signal with no inversion pulses, no diffusion-weighting, minimum TE etc)')	
+	parser.add_argument('--snr', metavar='<value>', default='30', help='value or values (separated by hyphens) of signal-to-noise ratio to be used to corrupt the data with synthetic noise (example: --snr 20 or --snr 20-15-10; default 30; values higher than 1e6 will be mapped to infinity, i.e. no noise added). SNR is evaluated with respect to non-weighted signals (e.g. signal with no inversion pulses, no diffusion-weighting, minimum TE etc)')	
 	parser.add_argument('--noise', metavar='<value>', default='gauss', help='synthetic noise type (choose among "gauss" and "rician"; default "gauss")')
 	parser.add_argument('--seed', metavar='<value>', default='20180721', help='seed for random number generation (default: 20180721)')	
 	parser.add_argument('--bias', metavar='<value>', default='100.0', help='multiplicative constant used to scale all synthetic signals, representing the offset proton density signal level with no weigthings (default: 100.0)')
@@ -58,7 +58,8 @@ if __name__ == "__main__":
 	nval = int(args.nval)
 	ntest = int(args.ntest)
 	snr = (args.snr).split('-')
-	snr = np.array( list(map( int,snr )) )
+	snr = np.array( list(map( float,snr )) )
+	snr[snr>1e6] = np.inf
 	nsnr = snr.size
 	noisetype = args.noise
 	myseed = int(args.seed)
