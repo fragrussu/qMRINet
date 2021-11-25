@@ -39,9 +39,9 @@ If you use qMRINet, please remember to cite our work:
 
 "Feasibility of data-driven, model-free quantitative MRI protocol design: application to brain and prostate diffusion-relaxation imaging". Grussu F, Blumberg SB, Battiston M, Kakkar LS, Lin H, Ianuș A, Schneider T, Singh S, Bourne R, Punwani S, Atkinson D, Gandini Wheeler-Kingshott CAM, Panagiotaki E, Mertzanidou T and Alexander DC. Frontiers in Physics 2021, 9:752208, doi: [10.3389/fphy.2021.752208](https://doi.org/10.3389/fphy.2021.752208). 
 
-Earlier preliminary results are available in this preprint: "Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. biorxiv 2020, DOI: [10.1101/2020.10.20.347625](https://doi.org/10.1101/2020.10.20.347625).
+Earlier preliminary results are available in this preprint: "Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. biorxiv 2020, doi: [10.1101/2020.10.20.347625](https://doi.org/10.1101/2020.10.20.347625).
 
-**Disclosure:** TS worked for Philips (UK) and now works for DeepSpin (Germany).
+**Disclosure:** FG is supported by PREdICT, a study co-funded by AstraZeneca (Spain). TS is an employee of DeepSpin (Germany) and previously worked for Philips (United Kingdom). MB is an employee of ASG Superconductors. AstraZeneca, Philips, DeepSpin and ASG Superconductors were not involved in the study design; collection, analysis, interpretation of data; manuscript writing and decision to submit the manuscript for publication; or any other aspect concerning this work.
 
 ## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved ([license](http://github.com/fragrussu/qMRINet/blob/master/LICENSE)).
