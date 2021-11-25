@@ -35,7 +35,9 @@ qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriin
 ## Citation
 If you use qMRINet, please remember to cite our work:
 
-"Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. Proceedings of the 2020 International MICCAI Workshop on Computational Diffusion MRI (accepted; in production). 
+"Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. Proceedings of the 2020 International MICCAI Workshop on Computational Diffusion MRI, 2021, pp 159-172, doi: [10.1007/978-3-030-73018-5_13](https://doi.org/10.1007/978-3-030-73018-5_13).
+
+"Feasibility of data-driven, model-free quantitative MRI protocol design: application to brain and prostate diffusion-relaxation imaging". Grussu F, Blumberg SB, Battiston M, Kakkar LS, Lin H, Ianuș A, Schneider T, Singh S, Bourne R, Punwani S, Atkinson D, Gandini Wheeler-Kingshott CAM, Panagiotaki E, Mertzanidou T and Alexander DC. Frontiers in Physics 2021, 9:752208, doi: [10.3389/fphy.2021.752208](https://doi.org/10.3389/fphy.2021.752208). 
 
 Earlier preliminary results are available in this preprint: "Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. biorxiv 2020, DOI: [10.1101/2020.10.20.347625](https://doi.org/10.1101/2020.10.20.347625).
 
