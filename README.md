@@ -44,6 +44,8 @@ Earlier preliminary results are available in this preprint: "Deep learning model
 ## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved ([license](http://github.com/fragrussu/qMRINet/blob/master/LICENSE)).
 
+**The use of qMRINet MUST also comply with the individual licenses of all of its dependencies.** 
+
 ## Acknowledgements
 The development of qMRINet was funded by the Engineering and Physical Sciences Research Council (EPSRC EP/R006032/1, M020533/1, EP/N018702/1 G007748, I027084) and by the UK Research and Innovation (UKRI) programme (MR/T020296/1, funding M.P.). This project has received funding under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541, and from: Rosetrees Trust (UK, funding F.G.); Spinal Research (UK), Wings for Life (Austria), Craig H. Neilsen Foundation (USA) for INSPIRED; Wings for Life (169111); UK Multiple Sclerosis Society (grants 892/08 and 77/2017); the Department of Health’s National Institute for Health Research (NIHR) Biomedical Research Centres and UCLH NIHR Biomedical Research Centre.
 
