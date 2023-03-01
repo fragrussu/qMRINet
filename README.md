@@ -29,8 +29,7 @@ $ python ./qMRINet/tools/syndata_deepqmri.py --help
 ## User guide
 qMRINet is based on 3 different python classes: `qmrisig`, `qmripar` and `qmriinterp`. These are defined in the [deepqmri.py](https://github.com/fragrussu/qMRINet/blob/master/tools/deepqmri.py) file and described in detail in this [user guide](https://github.com/fragrussu/qMRINet/blob/master/tutorials/README.md). The guide contains:
 1. information on qMRINet classes and on their methods, including illustrations;
-2. a list of signal models currently implemented in qMRINet; 
-3. practical tutorials that demonstrate how to use qMRINet tools.
+2. a list of signal models currently implemented in qMRINet. 
 
 ## Citation
 If you use qMRINet, please remember to cite our work:
@@ -41,7 +40,7 @@ If you use qMRINet, please remember to cite our work:
 
 Earlier preliminary results are available in this preprint: "Deep learning model fitting for diffusion-relaxometry: a comparative study"; Grussu F, Battiston M, Palombo M, Schneider T, Gandini Wheeler-Kingshott CAM and Alexander DC. biorxiv 2020, doi: [10.1101/2020.10.20.347625](https://doi.org/10.1101/2020.10.20.347625).
 
-**Disclosure:** FG is supported by PREdICT, a study co-funded by AstraZeneca (Spain). TS is an employee of DeepSpin (Germany) and previously worked for Philips (United Kingdom). MB is an employee of ASG Superconductors. AstraZeneca, Philips, DeepSpin and ASG Superconductors were not involved in the study design; collection, analysis, interpretation of data; manuscript writing and decision to submit the manuscript for publication; or any other aspect concerning this work.
+**Disclosure:** FG was supported by PREdICT, a study co-funded by AstraZeneca (Spain). TS is an employee of DeepSpin (Germany) and previously worked for Philips (United Kingdom). MB is an employee of ASG Superconductors. AstraZeneca, Philips, DeepSpin and ASG Superconductors were not involved in the study design; collection, analysis, interpretation of data; manuscript writing and decision to submit the manuscript for publication; or any other aspect concerning this work.
 
 ## License
 qMRINet is distributed under the BSD 2-Clause License, Copyright (c) 2020 University College London. All rights reserved ([license](http://github.com/fragrussu/qMRINet/blob/master/LICENSE)).
