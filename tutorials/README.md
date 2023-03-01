@@ -82,6 +82,3 @@ _Two-compartment diffusion-relaxation_ for a generic two-pool diffusion-T2 relax
 * **Sequence parameters are specified using text files** containing a matrix where the 1st row stores *b*-values in s/mm<sup>2</sup>, while 2nd row echo times in ms (use spaces to separate different entries). Below you find the signal model, sequence parameters and tissue parameters in the same order as outputted by fitting routines.
 <img src="https://github.com/fragrussu/qMRINet/blob/master/tutorials/MD3.png" width="612">
 
-
-## qMRINet tutorials
-A number of tutorials will be available here soon.
